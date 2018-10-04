@@ -2,10 +2,6 @@
 // The following short XML file called "sites.xml" is parsed 
 // in the code below. It must be in the project's "data" directory
 // <?xml version="1.0"?>
-// <websites>
-//   <site id="0" url="processing.org">Processing</site>
-//   <site id="1" url="mobile.processing.org">Processing Mobile</site>
-// </websites>
 
 XML xmlHR;
 XML xmlCAD;
@@ -14,6 +10,11 @@ void setup() {
   size(200, 200);
 
 println("test");
+
+
+
+
+
 
   xmlHR = loadXML("Morning_Ride.gpx");
   XML trkHR = xmlHR.getChild("trk");
@@ -27,7 +28,7 @@ println("test");
 
 println("nb trackseg main: "+trkptMain.length +"  nb trackseg hr: "+trkptHR.length );
 
-
+println("");
 
   //for (int i=0; i<10; i++) {
   //  XML elevElem = trkptHR[i].getChild("ele");
