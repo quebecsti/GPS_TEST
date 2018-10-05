@@ -13,7 +13,6 @@ println("test");
 
 
 //asdfsdafasd
-bye();
 
 
 
