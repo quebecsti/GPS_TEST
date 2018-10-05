@@ -12,11 +12,8 @@ void setup() {
 println("test");
 
 
-<<<<<<< HEAD
 //asdfsdafasd
-=======
 bye();
->>>>>>> bye
 
 
 
