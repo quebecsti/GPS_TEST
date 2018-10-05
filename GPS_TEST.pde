@@ -13,6 +13,7 @@ println("test");
 
 
 //asdfsdafasd yyyytytytyt
+bye();
 
 
 
@@ -65,6 +66,12 @@ println("");
 }
 
 void allo(){
+
+println(" sdfsdfsdf  ");
+}
+
+
+void bye(){
 
 println(" sdfsdfsdf  ");
 }
