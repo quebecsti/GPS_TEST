@@ -28,6 +28,8 @@ println("test");
 
 println("nb trackseg main: "+trkptMain.length +"  nb trackseg hr: "+trkptHR.length );
 
+allo();
+
 println("");
 
   //for (int i=0; i<10; i++) {
@@ -60,4 +62,9 @@ println("");
 
   //saveXML(xmlHR, "data2.xml");
   exit();
+}
+
+void allo(){
+
+println(" sdfsdfsdf  ");
 }
