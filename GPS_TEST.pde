@@ -12,7 +12,11 @@ void setup() {
 println("test");
 
 
+<<<<<<< HEAD
 //asdfsdafasd
+=======
+bye();
+>>>>>>> bye
 
 
 
@@ -65,6 +69,12 @@ println("");
 }
 
 void allo(){
+
+println(" sdfsdfsdf  ");
+}
+
+
+void bye(){
 
 println(" sdfsdfsdf  ");
 }
